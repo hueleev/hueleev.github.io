@@ -29,4 +29,7 @@ meta:
 
 ### `youtube` [youtube](https://www.youtube.com/channel/UC8ahvhtsuPFEZy15218Aaog)
 
-### `webApp` [vercel](https://sacha-app.vercel.app/)
+<br/>
+
+## 😎 Project
+### `Taste Buds` [Add your taste!](https://taste-buds-six.vercel.app/)
