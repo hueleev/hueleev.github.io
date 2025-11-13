@@ -1,5 +1,6 @@
 ---
 title: 03. 백준 문제 모음 | 알고리즘 모음 | JAVA | BOJ
+date: 2022-08-03
 meta:
   - name: description
     content: 백준 동적계획법 Algorithm BOJ JAVA

@@ -1,5 +1,6 @@
 ---
 title: 01. let & closure (for문 변수가 왜 바뀌지 않을까?)
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 let closure

@@ -1,5 +1,6 @@
 ---
 title: 12. Arrow function 활용 (bind 주의)
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 Arrow function bind

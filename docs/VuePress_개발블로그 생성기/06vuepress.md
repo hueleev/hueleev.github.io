@@ -1,5 +1,6 @@
 ---
 title: 06. vuepress 댓글 적용하기 | DISQUS
+date: 2022-06-14
 meta:
   - name: description
     content:  vuepress 댓글 적용하기

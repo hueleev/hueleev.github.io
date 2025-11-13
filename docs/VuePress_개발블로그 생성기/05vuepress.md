@@ -1,5 +1,6 @@
 ---
 title: 05. 검색엔진 SEO 최적화
+date: 2022-06-30
 meta:
   - name: description
     content: SEO를 알아보고 VuePress에 적용하자.

@@ -1,4 +1,5 @@
 ---
+date: 2025-08-12
 meta:
     - name: google-site-verification
       content: QGOhGD99HvCUXbDTSPep9FTwqTHWFfm8b86-gbvssJQ

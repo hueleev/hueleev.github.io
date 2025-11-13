@@ -1,5 +1,6 @@
 ---
 title: 01. vuepress 프로젝트 생성
+date: 2022-06-14
 meta:
   - name: description
     content: vuepress 개발 블로그를 만들자

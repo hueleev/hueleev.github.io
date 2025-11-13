@@ -1,5 +1,6 @@
 ---
 title: 16. Object, ES6에서 개선된 점 (assign, setPrototypeOf)
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 Object assign setPrototypeOf

@@ -1,5 +1,6 @@
 ---
 title: 09. Map & WeakMap
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 Map WeakMap

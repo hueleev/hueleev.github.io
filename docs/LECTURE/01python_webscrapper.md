@@ -1,5 +1,6 @@
 ---
 title: 🎈 Python으로 웹 스크래퍼 만들기 (nomad coders/노마드코더)
+date: 2022-06-30
 meta:
   - name: description
     content: python nomadCoders 노마드코더

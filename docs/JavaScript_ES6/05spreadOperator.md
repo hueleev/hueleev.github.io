@@ -1,5 +1,6 @@
 ---
 title: 05. spread operator, 펼침연산자
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 spread opreator

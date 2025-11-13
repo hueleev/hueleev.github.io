@@ -1,5 +1,6 @@
 ---
 title: 01. 하이차트(HighcCharts) 마지막 컬럼 색상 변경 / 항목 색상 변경
+date: 2022-03-23
 meta:
   - name: description
     content: highcharts column chart 하이차트 

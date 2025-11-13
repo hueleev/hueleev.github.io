@@ -1,5 +1,6 @@
 ---
 title: 03. vuepress style 적용하기
+date: 2021-11-11
 meta:
   - name: description
     content: vuepress style을 적용해보자

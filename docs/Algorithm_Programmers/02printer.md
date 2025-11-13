@@ -1,5 +1,6 @@
 ---
 title: 02. 프린터_스택/큐 | 프로그래머스 (JAVA) | STACK | QUEUE
+date: 2022-08-04
 meta:
   - name: description
     content: Java algorithm Programmers Stack Queue 알고리즘 프로그래머스 베스트앨범 스택 큐 

@@ -1,5 +1,6 @@
 ---
 title: 01. 간단한 React 메모장 (with react-persist)
+date: 2021-10-27
 meta:
   - name: description
     content: React 와 Redux를 활용하여 게시판을 만들어보다

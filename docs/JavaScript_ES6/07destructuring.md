@@ -1,5 +1,6 @@
 ---
 title: 07. Destructuring / 구조 분해 할당, ES6 핵심!
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 Destructuring

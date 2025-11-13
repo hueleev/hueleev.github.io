@@ -1,5 +1,6 @@
 ---
 title: 04. 더 맵게_힙 | 프로그래머스 (JAVA) | HEAP | QUEUE
+date: 2022-08-04
 meta:
   - name: description
     content: Java algorithm Programmers Heap Queue 알고리즘 프로그래머스 더맵게 힙 큐

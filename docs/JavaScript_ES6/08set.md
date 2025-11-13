@@ -1,5 +1,6 @@
 ---
 title: 08. 유니크한 배열, Set ! 
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 Set

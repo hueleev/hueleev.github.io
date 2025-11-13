@@ -1,5 +1,6 @@
 ---
 title: 01. 백준 입출력 문제 정리 | JAVA | BOJ
+date: 2022-05-27
 meta:
   - name: description
     content: 백준 입출력 BOJ JAVA

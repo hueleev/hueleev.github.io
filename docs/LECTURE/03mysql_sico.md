@@ -1,5 +1,6 @@
 ---
 title: 🎈 @시코 - MySQL 제대로 배우기
+date: 2022-06-24
 meta:
   - name: description
     content: mysql inflearn

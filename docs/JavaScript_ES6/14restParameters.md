@@ -1,5 +1,6 @@
 ---
 title: 14. Rest parameters (가변 파라미터), 파라미터 갯수로부터 자유롭고 싶을때
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 Rest parameters 

@@ -1,5 +1,6 @@
 ---
 title: 01. 리눅스 Compile (configure/make/MakeFile)
+date: 2022-08-03
 meta:
   - name: description
     content: linux 리눅스 compile 컴파일 configure make makefile 

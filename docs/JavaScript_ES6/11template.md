@@ -1,5 +1,6 @@
 ---
 title: 11. Template 사용 및 활용
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 Template

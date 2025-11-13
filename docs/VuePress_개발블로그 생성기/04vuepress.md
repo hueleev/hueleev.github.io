@@ -1,5 +1,6 @@
 ---
 title: 04. Github Action 적용하기
+date: 2022-06-14
 meta:
   - name: description
     content: vuepress에 Github Adtion을 적용하자

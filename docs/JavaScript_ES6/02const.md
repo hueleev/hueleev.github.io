@@ -1,5 +1,6 @@
 ---
 title: 02. const 특성과 immutable array
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 const immutable array

@@ -1,5 +1,6 @@
 ---
 title: 04. for문의 종류 (javaScript)
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 for

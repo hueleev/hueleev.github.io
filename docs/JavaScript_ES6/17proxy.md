@@ -1,5 +1,6 @@
 ---
 title: 17. Proxy, JS interception 기능 구현!
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 Proxy JS interception

@@ -1,5 +1,6 @@
 ---
 title: 03. 주식가격_스택/큐 | 프로그래머스 (JAVA) | STACK | QUEUE
+date: 2022-08-04
 meta:
   - name: description
     content: Java algorithm Programmers Stack Queue 알고리즘 프로그래머스 주식가격 스택 큐 

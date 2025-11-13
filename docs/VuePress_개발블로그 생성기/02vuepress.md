@@ -1,5 +1,6 @@
 ---
 title: 02. sidebar 생성 및 github page 올리기
+date: 2022-06-30
 meta:
   - name: description
     content: vuepress를 github page 에 적용해보자

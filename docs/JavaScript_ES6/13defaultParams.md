@@ -1,5 +1,6 @@
 ---
 title: 13. Default parameters, 파라미터 기본값 할당 방법
+date: 2021-10-27
 meta:
   - name: description
     content: javascript ES6 Default parameters

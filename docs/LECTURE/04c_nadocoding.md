@@ -1,5 +1,6 @@
 ---
 title: 🎈 C 프로그래밍 - 입문부터 게임 개발까지 (inflearn)
+date: 2022-08-24
 meta:
   - name: description
     content: mysql inflearn

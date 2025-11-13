@@ -1,5 +1,6 @@
 ---
-title:  01. 베스트앨범_해시 | 프로그래머스 (JAVA) | HASH
+title: 01. 베스트앨범_해시 | 프로그래머스 (JAVA) | HASH
+date: 2022-08-04
 meta:
   - name: description
     content: Java algorithm Programmers Hash 알고리즘 프로그래머스 베스트앨범 해시 
