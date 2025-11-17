@@ -27,10 +27,7 @@
       </template>
     </Sidebar>
 
-    <Home v-if="$page.frontmatter.home" />
-
     <Page
-      v-else
       :sidebar-items="sidebarItems"
     >
       <template #top>
@@ -41,7 +38,6 @@
         <Disqus class="content" />
       </template>
     </Page>
-   
   </div>
 </template>
 
@@ -50,8 +46,8 @@ import Home from '@theme/components/Home.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
+import Disqus from '../components/Disqus.vue'
 import { resolveSidebarItems } from '../util'
-import Disqus from '../components/Disqus.vue';
 
 export default {
   name: 'Layout',

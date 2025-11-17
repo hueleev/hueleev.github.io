@@ -16,32 +16,32 @@
       v-if="lastUpdated"
       class="last-updated"
     >
-      <span class="prefix">{{ lastUpdatedText }}:</span>
+      <span class="prefix">Last Updated:</span>
       <span class="time">{{ lastUpdated }}</span>
     </div>
   </footer>
 </template>
 
 <script>
-import isNil from 'lodash/isNil'
-import { endingSlashRE, outboundRE } from '../util'
+import isNil from 'lodash/isNil';
+import { endingSlashRE, outboundRE } from '../util';
 
 export default {
   name: 'PageEdit',
 
   computed: {
     lastUpdated () {
-      return this.$page.lastUpdated
-    },
-
-    lastUpdatedText () {
-      if (typeof this.$themeLocaleConfig.lastUpdated === 'string') {
-        return this.$themeLocaleConfig.lastUpdated
+      const dateStr = this.$page.frontmatter.date;
+      if (dateStr) {
+        const date = new Date(dateStr);
+        const userTimezoneOffset = date.getTimezoneOffset() * 60000;
+        const localDate = new Date(date.getTime() + userTimezoneOffset);
+        const year = localDate.getFullYear();
+        const month = ('0' + (localDate.getMonth() + 1)).slice(-2);
+        const day = ('0' + localDate.getDate()).slice(-2);
+        return `${year}-${month}-${day}`;
       }
-      if (typeof this.$site.themeConfig.lastUpdated === 'string') {
-        return this.$site.themeConfig.lastUpdated
-      }
-      return 'Last Updated'
+      return null;
     },
 
     editLink () {

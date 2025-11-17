@@ -1,5 +1,8 @@
 <template>
   <aside class="sidebar">
+    <ul class="sidebar-links">
+      <li><router-link to="/contents.html" class="sidebar-link">🍀</router-link></li>
+    </ul>
     <NavLinks />
 
     <slot name="top" />
@@ -13,8 +16,8 @@
 </template>
 
 <script>
-import SidebarLinks from '@theme/components/SidebarLinks.vue'
-import NavLinks from '@theme/components/NavLinks.vue'
+import NavLinks from '@theme/components/NavLinks.vue';
+import SidebarLinks from '@theme/components/SidebarLinks.vue';
 
 export default {
   name: 'Sidebar',

@@ -42,7 +42,10 @@ module.exports = {
       }]
     ],
     themeConfig: {
-      nav: [{ text: "Github", link: "https://github.com/hueleev" }],
+      nav: [
+        { text: "목차", link: "/contents.html" },
+        { text: "Github", link: "https://github.com/hueleev" }
+      ],
       sidebar: getSidebarArr(),
     },
     smoothScroll: true,
@@ -54,24 +57,36 @@ module.exports = {
     var fs = require("fs");
     var docsPath = __dirname + "/../";
     var sidebarArr = [];
-    var HomeFilelist = [];
+    var homeGroupChildren = []; // This will be the children of the 'HOME' group
+  
     var filelist = fs.readdirSync(docsPath);
     filelist.forEach(function(file) {
       if (file === ".vuepress") return;
       var stat = fs.lstatSync(docsPath + "/" + file);
       if (stat.isDirectory()) {
-        // directory
-        // title is file, children is readdirSync
         var docsFolderPath = docsPath + "/" + file;
         var list = fs.readdirSync(docsFolderPath);
-        sidebarArr.push(makeSidebarObject(file, list));
+        if (file !== "Diary") {
+          sidebarArr.push(makeSidebarObject(file, list));
+        } else {
+          // For 'Diary' directory, create a subgroup and add it to home group's children
+          homeGroupChildren.push(makeSidebarObject(file, list)); 
+        }
       } else {
-        // NOT directory
-        // title is '/' children is file
-        HomeFilelist.push(file);
+        // It's a file in /docs
+        if (file === "README.md") {
+          // Add README as the first item in home group's children
+          homeGroupChildren.unshift('/'); // Path for root README is '/'
+        }
       }
     });
-    sidebarArr.unshift(makeSidebarObject("", HomeFilelist));
+  
+    // Create the HOME group
+    sidebarArr.unshift({
+      title: 'HOME',
+      children: homeGroupChildren
+    });
+  
     return sidebarArr;
   }
   function makeSidebarObject(folder, mdfileList) {
