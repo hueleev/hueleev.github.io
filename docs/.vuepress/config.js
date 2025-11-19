@@ -91,6 +91,24 @@ module.exports = {
   }
   function makeSidebarObject(folder, mdfileList) {
     var path = folder ? "/" + folder + "/" : "/";
+
+    // 알고리즘 폴더는 내림차순 정렬
+    if (folder.includes("Algorithm")) {
+      mdfileList.sort(function(a, b) {
+        // 1. 각 문자열의 앞 두 글자(숫자)를 추출합니다.
+        const numA = a.substring(0, 2);
+        const numB = b.substring(0, 2);
+
+        // 2. 문자열을 숫자로 변환합니다.
+        const numericA = parseInt(numA, 10);
+        const numericB = parseInt(numB, 10);
+
+        // 3. 내림차순으로 비교합니다. (b - a)
+        // 결과가 양수이면 b가 먼저 오고, 음수이면 a가 먼저 옵니다.
+        return numericB - numericA;
+      });
+    }
+
     mdfileList = aheadOfReadme(mdfileList);
     var tmpMdfileList = [];
     // remove .md, add Path

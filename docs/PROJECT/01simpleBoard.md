@@ -10,9 +10,7 @@ meta:
 
 # 01. 간단한 React 메모장 (with react-persist)
 
-원래 `vueJS`보다 `react` 쪽에 더 관심이 가서 react로 프로젝트를 하나 해볼까 했는데..
-
-vueJS가 좀 더 심플하고 앞으로도 왠지 심플한 vueJS가 더 뜰거 같아서 이 쪽을 공부하고, 프로젝트를 하기로 마음 먹었다 -
+`vueJS`보다 `react` 쪽에 더 관심이 가서 react로 프로젝트를 하나 해볼까 했는데..
 
 이건 react공부할 때, 간단히 만들었던 메모장 -
 
