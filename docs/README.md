@@ -36,3 +36,4 @@ meta:
 
 ## 😎 Project
 ### `Taste Buds` [Add your taste!](https://taste-buds-six.vercel.app/)
+### `Gieok Maru` [Keep your mind active!](https://gieok-maru.vercel.app/)
